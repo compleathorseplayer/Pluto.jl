@@ -5,7 +5,7 @@ This package is based on a fork of [Pluto.jl](https://github.com/fonsp/Pluto.jl)
 
 ### Neptune
 
-Neptune originated as a fork of the Notebook platform Pluto, for those (like Data Scientists) who have requirements which conflict with the 'reactive' aspect of Pluto (where all cells re-evaluate every time a single cell is evaluated or re-evaluated).   It may turn out to be that Neptune is only an interim solution, and that the capabilities it enables will eventually exist within the Pluto, but that it is not certain.  Users with projects or applications whcih are *not* logically sequential or linear in execution/design, or which do not load external scripts, should first try Pluto.
+Neptune originated as a fork of the Notebook platform Pluto, for those (like Data Scientists) who have requirements which conflict with the 'reactive' aspect of Pluto (where all cells re-evaluate every time a single cell is evaluated or re-evaluated).   It may turn out to be that Neptune is only an interim solution, and that the capabilities it enables will eventually exist within the Pluto, but that it is not certain.  Users with projects or applications which are *not* logically sequential or linear in execution/design, or which do not load external scripts, should first try Pluto.
 
 _Writing a notebook is not just about writing the final document — Neptune empowers the experiments and discoveries that are essential to getting there._
 
