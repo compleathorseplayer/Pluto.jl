@@ -5,11 +5,8 @@ This package is based on a fork of [Pluto.jl](https://github.com/fonsp/Pluto.jl)
 
 ### Neptune
 
-Neptune originated as a fork of the Notebook platform Pluto, for those (like Data Scientists) who have requirements which conflict with the 'reactive' aspect of Pluto (where all cells re-evaluate every time a single cell is evaluated or re-evaluated), and instead prefer *linear*, *sequential* execution.
 
-Unlike Jupyter, saved Neptune files are executeable as Julia scripts, so Neptune may also be seen as a 'one-stop' IDE for developing and debugging script code, which cannot be said of either Jupyter (which separates notebooks and scripts) or Pluto (for which notebook execution would not necessarily correspond to script execution).
-
-In terms of position within the Julia Community, the relationship between Neptune and Pluto might be thought of as analogous to Gnome and KDE in the Linux community - in open source, when different developers and users and researchers have different vision and priorities, forks are the natural outcome.
+Neptune originated as a fork of the Notebook platform Pluto, for those (like Data Scientists) who have requirements which conflict with the 'reactive' aspect of Pluto (where all cells re-evaluate every time a single cell is evaluated or re-evaluated).   It may turn out to be that Neptune is only an interim solution, and that the capabilities it enables will eventually exist within the Pluto, but that it is not certain.  Users with projects or applications which are *not* logically sequential or linear in execution/design, or which do not load external scripts, should first try Pluto.
 
 
 
